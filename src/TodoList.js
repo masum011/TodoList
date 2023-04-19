@@ -21,7 +21,7 @@ function TodoList(){
     }
     return(
         <div>
-            <h1>Todo List from a branch for github </h1>
+            <h1>Todo List from a branch for github from masum main  </h1>
             <input type="text" placeholder="add activity"  value={activity} onChange={(e)=>setactivity(e.target.value)}/>
              <button onClick={addactivity}>add list</button>
              <p>Here is your list</p>
